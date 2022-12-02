@@ -1,0 +1,16 @@
+.service-page .service-card-wrapper .service-card .service-title{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.service-page .service-card-wrapper .service-card{
+    text-align: center;
+    background: rgba(204, 204, 204, 0.1);
+    padding: 80px 20px;
+    transition: all ease-in-out 0.3s;
+    border-radius: 4px;
+}
+
+.service-page .service-card-wrapper .service-card:hover{
+    background-color: #18d26e;
+}

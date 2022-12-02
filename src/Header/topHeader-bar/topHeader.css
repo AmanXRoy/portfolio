@@ -1,0 +1,23 @@
+.top-header-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: black;
+    z-index: 9999;
+}
+
+.top-header-wrapper .top-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+ .top-header-wrapper .top-header .header-logo .header-nav-logo{
+    font-size: 36px;
+    font-weight: 700;
+    color: #fff;
+    padding-top: 40px;
+
+}

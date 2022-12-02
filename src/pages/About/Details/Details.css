@@ -1,0 +1,15 @@
+.details-parent-wrapper .details-wrapper .designation-detail{
+    font-weight: 700;
+    font-size: 26px;
+    color: #18d26e;
+    font-family: 'Raleway', sans-serif;
+}
+
+.details-parent-wrapper .details-wrapper .my-information{
+    font-style: italic;
+    color: #ffff;
+}
+
+.details-parent-wrapper .skills-row .fa-chevron-right{
+    color: #18d26e;
+}

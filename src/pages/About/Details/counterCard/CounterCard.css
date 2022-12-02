@@ -1,0 +1,25 @@
+.counter-card{
+    padding: 30px 30px 25px 30px;
+    background: rgba(255, 255, 255, 0.08);
+    text-align: center;
+    position: relative;
+}
+
+.counter-card .fa-regular{
+    position: absolute;
+    top: -24%;
+    font-size: 30px;
+    color: #18d26e;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(255, 255, 255, 0.1);
+    padding: 18px;
+    border-radius: 50%;
+}
+
+.counter-card .counter-number{
+    font-size: 36px;
+    font-weight: 600;
+    color: #fff;
+}
+
