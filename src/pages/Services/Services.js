@@ -12,15 +12,15 @@ function Services()
             "serviceInfo":"Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi"
         },
         {
-            "serviceTitle" :"UI & UX",
+            "serviceTitle" :"Web Desgining",
             "serviceInfo":"Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi"
         },
         {
-            "serviceTitle" :"UI & UX",
+            "serviceTitle" :"Web Development",
             "serviceInfo":"Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi"
         },
         {
-            "serviceTitle" :"UI & UX",
+            "serviceTitle" :"Angular Development",
             "serviceInfo":"Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi"
         },
         {

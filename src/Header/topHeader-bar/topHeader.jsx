@@ -12,7 +12,7 @@ function topHeader()
             <Container>
             <div className="top-header">
             <div className="header-logo">
-                <NavLink to="/" className="header-nav-logo">Piyush Chauhan</NavLink>
+                <NavLink to="/" className="header-nav-logo">Aman Roy</NavLink>
                 </div>
                 <div className="header-navbar-links">
                 <Navbar></Navbar>

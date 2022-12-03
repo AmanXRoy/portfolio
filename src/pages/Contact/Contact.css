@@ -1,0 +1,36 @@
+.form-wrapper .contact-wrapper{
+    background-color: rgba(24, 24, 24, 0.338);
+    padding: 20px;
+    border-radius: 4px;
+}
+
+.contact-wrapper .contact-title{
+    font-size: 22px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.contact-wrapper .form-control-wrapper .form-control{
+    background-color: transparent;
+    color: #ffff;
+    outline: none;
+    border: none;
+    border-radius: 0;
+    border-bottom: 2px solid grey;
+    padding: 10px 0 ;
+}
+
+.contact-wrapper .form-control-wrapper .form-control:focus{
+    border: none;
+    box-shadow: none;
+    border-bottom: 2px solid #18d26e;
+}
+
+.contact-wrapper .btn-submit{
+    background-color: #18d26e;
+    color: black;
+    border-radius: 4px;
+}
+
+
+

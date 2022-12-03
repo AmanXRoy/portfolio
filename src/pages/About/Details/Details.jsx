@@ -10,16 +10,16 @@ function Details() {
     const detailsArray = [
         {
             "key": "Birthday:",
-            "value": "11 Sept. 1999",
+            "value": "1 Dec 2000",
             "icon": "fa-sharp fa-solid fa-chevron-right me-2"
         },
         {
             "key": "Website:",
-            "value": "ipiyushchaudhary.github.io",
+            "value": "amanroy007.github.io",
             "icon": "fa-sharp fa-solid fa-chevron-right me-2"
         }, {
             "key": "Phone:",
-            "value": "+91 79868 16987",
+            "value": "+91 77197-39456",
             "icon": "fa-sharp fa-solid fa-chevron-right me-2"
         }, {
             "key": "City:",
@@ -27,7 +27,7 @@ function Details() {
             "icon": "fa-sharp fa-solid fa-chevron-right me-2"
         }, {
             "key": "Age:",
-            "value": "22",
+            "value": "21",
             "icon": "fa-sharp fa-solid fa-chevron-right me-2"
         }, {
             "key": "Degree:",
@@ -35,7 +35,7 @@ function Details() {
             "icon": "fa-sharp fa-solid fa-chevron-right me-2"
         }, {
             "key": "Email:",
-            "value": "ipiyushchaudhary@gmail.com",
+            "value": "roya5846@gmail.com",
             "icon": "fa-sharp fa-solid fa-chevron-right me-2"
         }
     ];
@@ -48,7 +48,7 @@ function Details() {
                     <img src={ProfileImg} alt="" className='img-fluid' />
                 </Col>
                 <Col lg={8} className="details-wrapper">
-                    <h3 className='designation-detail'>Web Developer & Graphic Designer</h3>
+                    <h3 className='designation-detail'>FED(Front End Developer)</h3>
                     <p className='my-information'>Innovative and deadline-driven Web Developer/Designer with 2 years of experience designing and developing user-centered websites from initial concept to final, polished deliverable.</p>
                     <div className="skills-row">
                         <Row>
@@ -65,7 +65,7 @@ function Details() {
                                     }
                                 </ul>
                             </Col>
-                            <Col lg={6}>
+                            {/* <Col lg={6}>
                                 <ul className='ps-0'>
                                     <li className='mb-4'>
                                         <i className="fa-sharp fa-solid fa-chevron-right me-2"></i>
@@ -78,7 +78,7 @@ function Details() {
                                         <span>ipiyushchaudhary@gmail.com</span>
                                     </li>
                                 </ul>
-                            </Col>
+                            </Col> */}
                         </Row>
                         <p>Officiis eligendi itaque labore et dolorum mollitia officiis optio vero. Quisquam sunt adipisci omnis et ut. Nulla accusantium dolor incidunt officia tempore. Et eius omnis. Cupiditate ut dicta maxime officiis quidem quia. Sed et consectetur qui quia repellendus itaque neque. Aliquid amet quidem ut quaerat cupiditate. Ab et eum qui repellendus omnis culpa magni laudantium dolores.</p>
                     </div>

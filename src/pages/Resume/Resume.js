@@ -15,15 +15,15 @@ function Resume()
                     <Col lg={6}>
                         <h3 className='resume-title py-3'>Summary</h3>
                         <div className="resume-item">
-                            <p className='resume-first-title'>Piyush Chauhan</p>
+                            <p className='resume-first-title'>Aman Roy</p>
                             <p> 
                             <em>
-                            Innovative and deadline-driven Graphic Designer with 3+ years of experience designing and developing user-centered digital/print marketing material from initial concept to final, polished deliverable.
+                            Innovative and deadline-driven Front End Developer with 1+ years of experience designing and developing user-centered UI/Application marketing material from initial concept to final, polished deliverable.
                             </em></p>
                             <ul className='resume-item-list pl-1'>
                                 <li className='resume-list-items pb-2'>Ludhiana, Punjab</li>
                                 <li className='resume-list-items  pb-2'>91 79868-16987</li>
-                                <li className=' resume-list-items pb-2'>ipiyushChaudhary@gmail.com</li>
+                                <li className=' resume-list-items pb-2'>roya5846@gmail.com</li>
                             </ul>
                         </div>
                         <h3 className='resume-title py-3'>Education</h3>
@@ -40,21 +40,21 @@ function Resume()
                     <Col lg={6}>
                         <h3 className='resume-title py-3'>Professional Experience</h3>
                         <div className="resume-item">
-                            <p className='resume-first-title'>SENIOR GRAPHIC DESIGN SPECIALIST</p>
-                            <div className='year-tag'>2019 - Present</div>
+                            <p className='resume-first-title'>FrontEnd Developer</p>
+                            <div className='year-tag'>Feb 22 - Present</div>
                             <p> 
                             <em>
-                            Experion, New York, NY
+                            Sandvok Softwares
                             </em></p>
                             <ul className='resume-item-list pl-1'>
                                 <li className='resume-list-items pb-2'>Lead in the design, development, and implementation of the graphic, layout, and production communication materials</li>
                                 <li className='resume-list-items  pb-2'>Delegate tasks to the 7 members of the design team and provide counsel on all aspects of the project.</li>
                                 <li className=' resume-list-items pb-2'>Supervise the assessment of all graphic materials in order to ensure quality and accuracy of the design</li>
-                                <li className=' resume-list-items pb-2'>Oversee the efficient use of production project budgets ranging from $2,000 - $25,000</li>
+                                {/* <li className=' resume-list-items pb-2'>Oversee the efficient use of production project budgets ranging from $2,000 - $25,000</li> */}
                             </ul>
                             
                         </div>
-                        <div className="resume-item">
+                        {/* <div className="resume-item">
                             <p className='resume-first-title'>GRAPHIC DESIGN SPECIALIST</p>
                             <div className='year-tag'>2017 - 2018</div>
                             <p> 
@@ -67,7 +67,7 @@ function Resume()
                                 <li className=' resume-list-items pb-2'>Recommended and consulted with clients on the most appropriate graphic design</li>
                                 <li className=' resume-list-items pb-2'>Created 4+ design presentations and proposals a month for clients and account managers</li>
                             </ul>
-                        </div>
+                        </div> */}
                     </Col>
                 </Row>
             </div>

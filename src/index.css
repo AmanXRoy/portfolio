@@ -17,6 +17,7 @@ body{
   background: url(./assests/images/headerBackground.jpg) no-repeat;
   background-size: cover;
   color: #ffff;
+  overflow-x: hidden;
 }
 
 .container{

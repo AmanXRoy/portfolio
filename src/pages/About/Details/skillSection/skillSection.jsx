@@ -21,7 +21,7 @@ function skillSection()
             "skillPercentage":100
         },
         {
-            "skillName":"php",
+            "skillName":"Angular & Typescript",
             "skillPercentage":80
         },
         {
@@ -33,8 +33,8 @@ function skillSection()
             "skillPercentage":55
         },
         {
-            "skillName":"wordpress",
-            "skillPercentage":70
+            "skillName":"React",
+            "skillPercentage":50
         },
 
     ]

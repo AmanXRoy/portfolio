@@ -8,8 +8,8 @@ import Services from './pages/Services/Services';
 import Contact from './pages/Contact/Contact';
 
 function App() {
-  const personName = "Piyush Chauhan";
-  const personRole = "Web Developer";
+  const personName = "Aman Roy";
+  const personRole = "FrontEnd Developer";
   const personSummaryStart = "I'm a passionate ";
   const personSummaryEnd = " from India";
   return (
