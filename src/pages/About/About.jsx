@@ -1,6 +1,7 @@
 import TopBar from '../../Header/topHeader-bar/topHeader';
 import {Container} from 'react-bootstrap';
 import Details from './Details/Details';
+import './About.css';
 function About()
 {
 
