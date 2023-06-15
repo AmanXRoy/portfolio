@@ -65,20 +65,6 @@ function Details() {
                                     }
                                 </ul>
                             </Col>
-                            {/* <Col lg={6}>
-                                <ul className='ps-0'>
-                                    <li className='mb-4'>
-                                        <i className="fa-sharp fa-solid fa-chevron-right me-2"></i>
-                                        <strong className='me-3'>Degree:</strong>
-                                        <span>Bachelor's</span>
-                                    </li>
-                                    <li className='mb-4'>
-                                        <i className="fa-sharp fa-solid fa-chevron-right me-2"></i>
-                                        <strong className='me-3'>Email:</strong>
-                                        <span>ipiyushchaudhary@gmail.com</span>
-                                    </li>
-                                </ul>
-                            </Col> */}
                         </Row>
                         <p>Officiis eligendi itaque labore et dolorum mollitia officiis optio vero. Quisquam sunt adipisci omnis et ut. Nulla accusantium dolor incidunt officia tempore. Et eius omnis. Cupiditate ut dicta maxime officiis quidem quia. Sed et consectetur qui quia repellendus itaque neque. Aliquid amet quidem ut quaerat cupiditate. Ab et eum qui repellendus omnis culpa magni laudantium dolores.</p>
                     </div>
@@ -86,7 +72,7 @@ function Details() {
 
             </Row>
             <div className="counter-cards-wrapper py-4 my-4">
-                <CounterCard />
+                {/* <CounterCard /> */}
             </div>
 
             <div className="skill-progressbar-wrapper">

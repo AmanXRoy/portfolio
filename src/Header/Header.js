@@ -1,10 +1,13 @@
 import './Header.css';
 import Navbar  from './NavBar/Navbar';
+import {motion} from 'framer-motion';
 function Header(props)
 {
    
 return (
-    <div className="header-container">
+    <motion.div className="header-container"  initial={{ transform: "translateX(100%)", transitionProperty:"all" }}
+    animate={{ transform: "translateX(0%)" }}
+    exit={{ transform: "translateX(100%)"}}>
         <div className="intro-wrapper">
             <h1 className='person-name'>{props.name}</h1>
             <p className="person-summary">{props.summaryStart}<span className='person-role'>{props.role}</span> {props.summaryEnd}</p>
@@ -24,7 +27,7 @@ return (
             </a>
         </div>
         </div>
-    </div>
+    </motion.div>
 );
 }
 
