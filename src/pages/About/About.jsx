@@ -8,9 +8,6 @@ function About() {
   return (
     <>
       <motion.div
-        initial={{ transform: "translateX(100%)", transitionProperty:"all" }}
-        animate={{ transform: "translateX(0%)" }}
-        exit={{ transform: "translateX(100%)"}}
       >
       <TopBar />
         <div className="section-wrapper">

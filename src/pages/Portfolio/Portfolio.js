@@ -7,9 +7,6 @@ function Portfolio() {
   return (
     <>
       <motion.div
-      initial={{ transform: "translateX(100%)", transitionProperty:"all" }}
-      animate={{ transform: "translateX(0%)" }}
-      exit={{ transform: "translateX(100%)"}}
       >
         <TopHeader />
         <div className="section-wrapper">

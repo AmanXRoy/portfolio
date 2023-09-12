@@ -2,14 +2,11 @@ import TopHeader from "../../Header/topHeader-bar/topHeader";
 import { Container, Row, Col } from "react-bootstrap";
 import "./Resume.css";
 import { motion } from "framer-motion";
+import SkillSection from "../About/Details/skillSection/skillSection";
 
 function Resume() {
   return (
-    <motion.div
-    initial={{ transform: "translateX(100%)", transitionProperty:"all" }}
-    animate={{ transform: "translateX(0%)" }}
-    exit={{ transform: "translateX(100%)"}}
-    >
+    <motion.div>
       <>
         <TopHeader />
         <div className="section-wrapper">
@@ -24,10 +21,14 @@ function Resume() {
                     <p className="resume-first-title">Aman Roy</p>
                     <p>
                       <em>
-                        Innovative and deadline-driven Front End Developer with
-                        1+ years of experience designing and developing
-                        user-centered UI/Application marketing material from
-                        initial concept to final, polished deliverable.
+                        Front-end developer with 1.5 years of experience in
+                        building and maintaining high-quality user interfaces
+                        for web applications. Proven ability to use HTML, CSS,
+                        and JavaScript to create responsive and visually
+                        appealing designs. Expertise in using Angular to build
+                        complex and dynamic web applications. Strong
+                        problem-solving and debugging skills. Ability to work
+                        independently and as part of a team.
                       </em>
                     </p>
                     <ul className="resume-item-list pl-1">
@@ -35,7 +36,7 @@ function Resume() {
                         Ludhiana, Punjab
                       </li>
                       <li className="resume-list-items  pb-2">
-                        91 79868-16987
+                        +91 77197-39456
                       </li>
                       <li className=" resume-list-items pb-2">
                         roya5846@gmail.com
@@ -49,43 +50,50 @@ function Resume() {
                     </p>
                     <div className="year-tag">2017-2020</div>
                     <p>
-                      <em>Punjab University</em>
-                    </p>
-                    <p>
-                      Quia nobis sequi est occaecati aut. Repudiandae et iusto
-                      quae reiciendis et quis Eius vel ratione eius unde vitae
-                      rerum voluptates asperiores voluptatem Earum molestiae
-                      consequatur neque etlon sader mart dila
+                      <em>S.C.D Government College, Ludhiana</em>
                     </p>
                   </div>
                 </Col>
                 <Col lg={6}>
                   <h3 className="resume-title py-3">Professional Experience</h3>
                   <div className="resume-item">
-                    <p className="resume-first-title">FrontEnd Developer</p>
+                    <p className="resume-first-title">
+                      FrontEnd Developer (Angular)
+                    </p>
                     <div className="year-tag">Feb 22 - Present</div>
                     <p>
                       <em>Sandvok Softwares</em>
                     </p>
+                    <p>
+                      At this respective position I have developed complex and
+                      dynamic web application using HTML, CSS ,JavaScript and
+                      Angular framework.
+                    </p>
                     <ul className="resume-item-list pl-1">
                       <li className="resume-list-items pb-2">
-                        Lead in the design, development, and implementation of
-                        the graphic, layout, and production communication
-                        materials
+                        Conducting analysis of website and application
+                        requirements.
                       </li>
                       <li className="resume-list-items  pb-2">
-                        Delegate tasks to the 7 members of the design team and
-                        provide counsel on all aspects of the project.
+                        Developing functionality based on client requirements.
                       </li>
                       <li className=" resume-list-items pb-2">
-                        Supervise the assessment of all graphic materials in
-                        order to ensure quality and accuracy of the design
+                        Speed and performance optimization of websites.
+                      </li>
+                      <li className=" resume-list-items pb-2">
+                        Integrating Restful API in the application.
+                      </li>
+                      <li className=" resume-list-items pb-2">
+                        Implementing cross browser compatibility.
                       </li>
                       {/* <li className=' resume-list-items pb-2'>Oversee the efficient use of production project budgets ranging from $2,000 - $25,000</li> */}
                     </ul>
                   </div>
                 </Col>
               </Row>
+              <div className="skill-progressbar-wrapper my-4">
+                <SkillSection />
+              </div>
             </div>
           </Container>
         </div>

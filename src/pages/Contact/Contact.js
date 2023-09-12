@@ -6,9 +6,7 @@ import { motion } from "framer-motion";
 function Contact() {
   return (
     <>
-      <motion.div initial={{ transform: "translateX(100%)", transitionProperty:"all" }}
-      animate={{ transform: "translateX(0%)" }}
-      exit={{ transform: "translateX(100%)"}}>
+      <motion.div>
       <TopHeader />
       <div className="section-wrapper">
         <Container>

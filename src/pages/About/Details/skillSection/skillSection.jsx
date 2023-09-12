@@ -6,31 +6,31 @@ function skillSection()
     const skillObject = [
         {
             "skillName":"html",
-            "skillPercentage":95
+            "skillPercentage":99
         },
         {
             "skillName":"css",
-            "skillPercentage":90
+            "skillPercentage":99
         },
         {
             "skillName":"javascript",
-            "skillPercentage":80
+            "skillPercentage":90
         },
         {
             "skillName":"bootstrap",
-            "skillPercentage":100
-        },
-        {
-            "skillName":"Angular & Typescript",
             "skillPercentage":80
         },
         {
+            "skillName":"Angular & Typescript",
+            "skillPercentage":90
+        },
+        {
             "skillName":"jquery",
-            "skillPercentage":100
+            "skillPercentage":90
         },
         {
             "skillName":"photoshop",
-            "skillPercentage":55
+            "skillPercentage":80
         },
         {
             "skillName":"React",
@@ -49,7 +49,7 @@ return(
                     skillObject.map((skill)=><Col lg={6}>
                     <div className="skill my-2">
                         <span className='skill-name'>{skill.skillName}<span className='skill-percentage'>{skill.skillPercentage}%</span></span>
-                        <ProgressBar now={skill.skillPercentage}/>
+                        <ProgressBar  now={skill.skillPercentage}/>
                     </div>
                 </Col>)
                 }
